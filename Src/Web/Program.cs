@@ -18,7 +18,6 @@ else
 {
     Env.Load();
 }
-// I will add proper variable validation next ------------------------------------------
 // aspNetCoreUrls is a placeholder for future full stack links
 string aspNetCoreUrls = Environment.GetEnvironmentVariable("ASPNETCORE_URLS")
     ?? throw new InvalidOperationException("ASPNETCORE_URLS environment variable is required.");
